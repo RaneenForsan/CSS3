@@ -1,0 +1,16 @@
+.class1{
+    border: 20px solid red;
+    width:230px;
+    height:200px;
+}
+.class2{
+    border: 20px solid red;
+    width:230px;
+    height:200px;
+    transform: rotate(45deg);
+    position: relative;
+    bottom:240px;
+}
+.mainclass{
+    margin-top:200px;
+}

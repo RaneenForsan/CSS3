@@ -1,0 +1,36 @@
+.class1{
+    border: 20px solid lightblue;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+.span1{
+    width:20px;
+    height:20px;
+    background: lightblue;
+    border-radius: 50%;
+    position: relative;
+    left:85px;
+    top:80px;
+}
+.span2{
+    width:95px;
+    height:8px;
+    background: black;
+    position: relative;
+    top:65px;
+    left:103px;
+    transform-origin: left center;
+    animation: sec_anim 7s linear infinite;
+
+}
+.span2:hover{
+    animation:stop;
+}
+
+@keyframes sec_anim{
+    from{transform: rotateZ(0deg);}
+    to{transform: rotateZ(360deg);}}
+
